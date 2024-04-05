@@ -3,7 +3,7 @@
 clone or download the repo.
 
 
-to intall
+to install
 
     npm init
 
@@ -15,3 +15,9 @@ to build
 
     npm run build
 
+to build with a different path
+
+    npm run build2
+
+
+![](image.png)
