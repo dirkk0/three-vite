@@ -1,0 +1,20 @@
+{
+  "name": "three-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "build2": "vite build --base=/whatever/path/",
+    
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^23.1.1",
+    "three": "^0.156.1"
+  }
+}

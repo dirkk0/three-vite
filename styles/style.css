@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-color: grey;
+}
+
+#info1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* z-index: 1; */
+  color: white;
+}
+
+#info2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  /* z-index: 1; */
+  color: white;
+  text-align: center;
+  /* Need a specific value to work */
+}
+
+#info3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* z-index: 1; */
+  color: white;
+}
+
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
